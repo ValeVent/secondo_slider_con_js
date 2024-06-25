@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- CONTENITORE ESTERNO DELLE SLIDE  -->   
+<div class="container-slideshow">
+
+<!-- SINGOLE SLIDE  --> 
+<div class="single-slide">
+    <div class="numbertext">1 / 4</div>
+    <img src="media/pexels-jamaal-hutchinson-675024091-18696933 1.png" style="width:100%">
+</div> 
+
+<div class="single-slide">
+    <div class="numbertext">2 / 4</div>
+    <img src="media/pexels-petr-slovacek-770136941-18925511 1.png" style="width:100%">
+</div>
+
+<div class="single-slide">
+    <div class="numbertext">3 / 4</div>
+    <img src="media/pexels-pixabay-206359 1.png" style="width:100%">
+</div>
+
+<div class="single-slide">
+    <div class="numbertext">4 / 4</div>
+    <img src="media/pexels-vito-giaccari-26039644-11065778 1.png" style="width:100%">
+</div>
+
+  <!-- PULSANTI SLIDER -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Container for image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+</div>
+<br>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="media/pexels-jamaal-hutchinson-675024091-18696933 1.png" style="width:100%" onclick="currentSlide(1)" alt="Paesaggio di montagna">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="media/pexels-petr-slovacek-770136941-18925511 1.png" style="width:100%" onclick="currentSlide(2)" alt="Isola con faro">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="media/pexels-pixabay-206359 1.png" style="width:100%" onclick="currentSlide(3)" alt="Molo al tramonto">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="media/pexels-vito-giaccari-26039644-11065778 1.png" style="width:100%" onclick="currentSlide(4)" alt="Tartarughe">
+    </div>
+  </div>
+</div>
+
+<script src="functions.js"></script>    
+</body>
+</html>

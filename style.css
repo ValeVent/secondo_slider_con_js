@@ -1,0 +1,104 @@
+/* STYLE.CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTENITORE ESTERNO DELLE SLIDE */
+.container-slideshow {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+/* IMMAGINI NASCOSTE DI DEFAULT */
+.single-slide {
+    display: none;
+}  
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* PULSANTI SLIDER */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* POSIZIONA IL "next button" A DESTRA */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* GESTITO HOVER CON BG CON OPACITA' */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f5bb0e;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 16px 16px;
+    color: white;
+    margin: 0;
+}
+
+/* Margini e padding tra le colonne delle miniature */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Colonne delle miniature affiancate */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0; 
+    margin: 0; 
+}
+
+
+/* Effetto trasparenza per le immagini in miniatura */
+.demo {
+    opacity: 0.6;
+    padding: 0; 
+    margin: 0; 
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
