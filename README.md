@@ -55,9 +55,9 @@ cd slider-interattivo
 
 Avvio dell'Applicazione
 
-. Assicurati che i file immagine (es. media/pexels-jamaal-hutchinson-675024091-18696933 1.png, ecc.) siano presenti nella cartella media all'interno della directory del progetto.
+- Assicurati che i file immagine (es. media/pexels-jamaal-hutchinson-675024091-18696933 1.png, ecc.) siano presenti nella cartella media all'interno della directory del progetto.
 
-. Apri il file index.html (o il nome del tuo file HTML principale) direttamente nel tuo browser web.
+- Apri il file index.html (o il nome del tuo file HTML principale) direttamente nel tuo browser web.
 
 
 Se hai installato http-server globalmente (opzionale, per un server locale):
