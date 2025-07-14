@@ -1,14 +1,14 @@
-Slider Interattivo
+# Slider Interattivo
 
 Questo progetto implementa uno slider di immagini interattivo che permette di navigare tra una serie di fotografie tramite pulsanti di direzione e miniature, con didascalie dinamiche.
 
 
-Descrizione Approfondita del Progetto
+## Descrizione Approfondita del Progetto
 
 Lo slider visualizza una singola immagine per volta, con la possibilità di passare all'immagine successiva o precedente utilizzando le frecce di navigazione. Include anche una serie di miniature cliccabili che consentono di selezionare direttamente un'immagine specifica. Ogni immagine è accompagnata da un contatore (es. "1/4") e da una didascalia che descrive il contenuto dell'immagine, rendendo l'esperienza utente completa e intuitiva.
 
 
-Tecnologie Utilizzate
+## Tecnologie Utilizzate
 
 - HTML5: Struttura del carosello, delle slide singole, dei controlli di navigazione e delle miniature.
 
@@ -17,7 +17,7 @@ Tecnologie Utilizzate
 - JavaScript: Logica per la gestione della visualizzazione delle slide, la navigazione tramite frecce e miniature, e l'aggiornamento dinamico delle didascalie e del contatore delle immagini.
 
 
-Funzionalità Principali
+## Funzionalità Principali
 
 - Navigazione Semplice: Pulsanti "Precedente" e "Successivo" per sfogliare le immagini.
 
@@ -30,17 +30,17 @@ Funzionalità Principali
 - Design Responsivo: Adattabile a diverse dimensioni di schermo.
 
 
-Come Avviare il Progetto
+## Come Avviare il Progetto
 
 Segui questi semplici passaggi per visualizzare il progetto localmente:
 
 
-Prerequisiti
+### Prerequisiti
 
 Non sono richiesti particolari prerequisiti oltre a un browser web moderno.
 
 
-Installazione
+### Installazione
 
 1. Clona il repository (o scarica la cartella del progetto):
 
@@ -53,7 +53,7 @@ Assicurati di sostituire 'slider-interattivo.git' con il nome esatto del tuo rep
 cd slider-interattivo
 
 
-Avvio dell'Applicazione
+### Avvio dell'Applicazione
 
 - Assicurati che i file immagine (es. media/pexels-jamaal-hutchinson-675024091-18696933 1.png, ecc.) siano presenti nella cartella media all'interno della directory del progetto.
 
@@ -69,12 +69,12 @@ http-server .
 L'applicazione sarà accessibile all'indirizzo mostrato dal server (es. http://localhost:8080).
 
 
-Stato del Progetto
+## Stato del Progetto
 
 Questo progetto è un esempio funzionale e interattivo di slider di immagini, ideale per presentazioni fotografiche o gallerie web.
 
 
-Contatti
+## Contatti
 
 GitHub: https://github.com/ValeVent
 
