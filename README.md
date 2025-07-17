@@ -10,24 +10,24 @@ Lo slider visualizza una singola immagine per volta, con la possibilità di pass
 
 ## Tecnologie Utilizzate
 
-- HTML5: Struttura del carosello, delle slide singole, dei controlli di navigazione e delle miniature.
+- **HTML5**: Struttura del carosello, delle slide singole, dei controlli di navigazione e delle miniature.
 
-- CSS3: Styling del layout, delle immagini, dei pulsanti, degli indicatori e delle didascalie, garantendo un design responsivo.
+- **CSS3**: Styling del layout, delle immagini, dei pulsanti, degli indicatori e delle didascalie, garantendo un design responsivo.
 
-- JavaScript: Logica per la gestione della visualizzazione delle slide, la navigazione tramite frecce e miniature, e l'aggiornamento dinamico delle didascalie e del contatore delle immagini.
+- **JavaScript**: Logica per la gestione della visualizzazione delle slide, la navigazione tramite frecce e miniature, e l'aggiornamento dinamico delle didascalie e del contatore delle immagini.
 
 
 ## Funzionalità Principali
 
-- Navigazione Semplice: Pulsanti "Precedente" e "Successivo" per sfogliare le immagini.
+- **Navigazione Semplice**: Pulsanti "Precedente" e "Successivo" per sfogliare le immagini.
 
-- Miniature Interattive: Cliccando su una miniatura, l'utente può saltare direttamente all'immagine corrispondente.
+- **Miniature Interattive**: Cliccando su una miniatura, l'utente può saltare direttamente all'immagine corrispondente.
 
-- Didascalie Dinamiche: Ogni immagine visualizza una didascalia aggiornata automaticamente (presa dall'attributo alt della miniatura).
+- **Didascalie Dinamiche**: Ogni immagine visualizza una didascalia aggiornata automaticamente (presa dall'attributo alt della miniatura).
 
-- Contatore Immagini: Indica la posizione corrente dell'immagine all'interno della sequenza (es. "1 / 4").
+- **Contatore Immagini**: Indica la posizione corrente dell'immagine all'interno della sequenza (es. "1 / 4").
 
-- Design Responsivo: Adattabile a diverse dimensioni di schermo.
+- **Design Responsivo**: Adattabile a diverse dimensioni di schermo.
 
 
 ## Come Avviare il Progetto
@@ -76,8 +76,8 @@ Questo progetto è un esempio funzionale e interattivo di slider di immagini, id
 
 ## Contatti
 
-GitHub: https://github.com/ValeVent
+- **GitHub**: https://github.com/ValeVent
 
-LinkedIn: https://www.linkedin.com/in/valentina-venturo
+- **LinkedIn**: https://www.linkedin.com/in/valentina-venturo
 
-Sito Web: http://www.valentinaventuro.it
+- **Sito Web**: http://www.valentinaventuro.it
